@@ -19,7 +19,7 @@ document.querySelectorAll('.nav-menu').forEach(n => n.addEventListener('click', 
 
 
 // slider
-let swiperPages = new Swiper(".packeges-content", {
+new Swiper(".packeges-content", {
     slidesPerView: 'auto',
     spaceBetween: 35,
     // loop: true,

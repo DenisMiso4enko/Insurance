@@ -340,7 +340,7 @@ a {
     left: 10px;
     font-size: 16px;
     line-height: 22px;
-    
+
     color: #0862A0;
     
 }
@@ -356,6 +356,15 @@ a {
     
     margin-bottom: 41px;
 }
+
+.packeges-content .swiper-slide-next {
+    background-color: #03385A;
+}
+.packeges-content .swiper-slide-next .counter {
+    color: #fff;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .packeges-content{
@@ -379,86 +388,24 @@ a {
     }
   }
 
-.swiper-slide-active {
-    background-color: #03385A;
-}
+
+
 
 
   /* ====================== Reviews ========================== */
 .section-reviews {
+    padding: 140px 0 140px;
 }
-
 .title {
 }
 .subtitle {
 }
-.reviews-wrapper {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-}
-
-.reviews-photo {
-   
-}
-.reviews-photo img {
-   
-}
-.reviews__card {
-    max-width: 600px;
-    padding: 40px 30px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 34px;
-    text-align: center;
-    
-}
-.reviews__card svg {
-    margin-bottom: 20px;
-}
-
-.reviews-text {
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #0862A0;    
-    margin-bottom: 30px;
-}
-.reviews__info {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.autor__photo {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    border: 2px solid #0862A0;
-    overflow: hidden;
-}
-.autor__photo img {
-    overflow: hidden;
+.revies-container {
     width: 100%;
-    height: 100%;
-    
+    height: 300px;
 }
-.autor__info {
-}
-.autor__info-name {
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 25px;
-   
-    color: #000000;
-    margin-bottom: 10px;
-}
-.autor__info-job {
-    font-size: 20px;
-    line-height: 19px;
-    
-    color: #C4C4C4;
-}
+
+
 
 
   /* ====================== Section Team ========================== */
