@@ -23,6 +23,11 @@ a {
 .header-inner {
     background: #0862A0;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
 }
 .header {
     display: flex;
@@ -106,7 +111,7 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 80px;
+        top: 75px;
         background-color: #03385A;
         width: 100%;
         min-height: 100%; /* !!!!!!!!!!!!!! */
@@ -140,12 +145,13 @@ a {
 .main-inner{
     background: #0862A0;
     color: white;
+    padding: 120px 0 120px;
 }
 .main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 0 120px;
+   
 }
 .main__content {
     max-width: 38%;
